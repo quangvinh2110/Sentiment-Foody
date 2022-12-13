@@ -37,7 +37,7 @@ class RobertaForSentimentAnalysisV1(RobertaPreTrainedModel):
                            # token_type_ids=token_type_ids,
                            position_ids=position_ids,
                            head_mask=head_mask,
-                           output_hidden_states=True)
+                           )
         cls_output = out.last_hidden_state[:, 0, :]
         logits = self.qa_outputs(cls_output)
         
