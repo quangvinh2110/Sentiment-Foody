@@ -85,9 +85,11 @@ class RobertaForSentimentAnalysisV2(RobertaPreTrainedModel):
                                 out.hidden_states[-4][:, 0, :]), -1)
         logits = self.qa_outputs(cls_output)
 
+        del out.hidden_states
+
         return SequenceClassifierOutput(
             loss=None,
             logits=logits,
-            hidden_states=out.hidden_states,
+            hidden_states=None,
             attentions=out.attentions,
         )
