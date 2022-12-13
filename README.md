@@ -39,5 +39,14 @@ Firstly, you need to install all the required dependencies:
 
 ```
 pip install -r requirements.txt
+```
+Secondly, you need to go to this [link](https://drive.google.com/drive/folders/1iW6nos7wXvQXtYfZ3s9di6GpEWtBj8ez?usp=share_link) and download data
 
+### How to train
 
+SVM: Run file SVM.ipynb
+Fine-tune: Run file Fine_tune.ipynb
+
+### How to infer
+
+Run file Inference.ipynb
