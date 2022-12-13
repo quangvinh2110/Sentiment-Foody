@@ -45,6 +45,7 @@ Secondly, you need to go to this [link](https://drive.google.com/drive/folders/1
 ### How to train
 
 SVM: Run file SVM.ipynb
+
 Fine-tune: Run file Finetune.ipynb
 
 ### How to infer
