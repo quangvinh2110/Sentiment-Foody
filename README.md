@@ -33,6 +33,11 @@ Weight decay: 1e-2
 
 Epoch: 3
 
-### Training
+### Quickstart
+
+Firstly, you need to install all the required dependencies:
+
+```
+pip install -r requirements.txt
 
 
